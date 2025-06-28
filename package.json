@@ -1,0 +1,33 @@
+{
+  "name": "deploy-cli",
+  "version": "1.0.0",
+  "description": "自动化部署cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowan766/deploy-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rowan766/deploy-cli/issues"
+  },
+  "homepage": "https://github.com/rowan766/deploy-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "dotenv": "^16.0.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^8.2.6",
+    "js-yaml": "^4.1.0",
+    "node-ssh": "^13.1.0",
+    "ora": "^4.1.1",
+    "shelljs": "^0.8.5",
+    "ssh2": "^1.11.0"
+  }
+}
